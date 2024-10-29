@@ -1,0 +1,85 @@
+.navbar{
+    height: 160px;
+    margin: 0 auto;
+    overflow: visible;
+    /* background-color: rgb(34, 34, 34); */
+}
+.navbar-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px;
+}
+.navbar-img input{
+    width: 200px;
+    height: 27px;
+    border: 1px solid #ff0909;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: white;
+    background-color: transparent;
+}
+/* .navbar-img input:hover{
+    
+} */
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn button{
+    background-color: #ff4343;
+    height: 27px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 6px 12px;
+    color: white;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #ff3030;
+    height: 27.5px;
+}
+
+
+/* responsive */
+@media screen and (max-width:600px){
+    .navbar{
+        height: 220px;
+    }
+    .navbar-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 31px 100px;
+    }
+    .navbar-img img{
+        margin: 16px;
+    }
+    .navbar-img input{
+        width: 280px;
+        height: 35px;
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn button{
+        height: 33px;
+        width: 80px;
+        border: transparent;
+        border-radius: 5px;
+        padding: 6px 10px;
+        color: white;
+        font-size: 14px;
+    }
+}

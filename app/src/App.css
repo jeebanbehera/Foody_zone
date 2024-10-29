@@ -1,0 +1,7 @@
+*{
+    max-width: 1280px;
+    margin: 0;
+}
+.container{
+    background-color: rgb(34, 34, 34);
+}
