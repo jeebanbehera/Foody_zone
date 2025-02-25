@@ -27,7 +27,7 @@ export default function Body({ data:data , DATA}){
                             </div>
                         ))
                     ):(
-                        <h1>nothing foundd</h1>
+                        <h1>nothing founddd</h1>
                     )}
             </div>
         </div>
